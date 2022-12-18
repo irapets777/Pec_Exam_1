@@ -1,0 +1,21 @@
+.sidebar{
+    background-color: #F6F6F6;
+    &__title{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    &__menu{
+        ul{
+            display: inline-block;
+            li{
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+                &:hover{
+                    background-color: #C32158;
+                }
+            }
+        }
+    }
+}
